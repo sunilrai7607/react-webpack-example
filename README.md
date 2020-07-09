@@ -73,9 +73,12 @@ yarn add --dev webpack webpack-dev-server webpack-cli
 yarn add --dev @babel/core @babel/preset-env @babel/preset-react babel-loader
 
 create a file with name : babel.config.js and below content
+
+```
 module.exports = {
 presets: ["@babel/preset-env", "@babel/preset-react"],
 };
+```
 
 create a file with name : webpack.config.js
 add below code
